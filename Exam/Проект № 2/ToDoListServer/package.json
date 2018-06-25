@@ -1,0 +1,23 @@
+{
+  "name": "myproject",
+  "version": "1.0.0",
+  "description": "![Alt Text](https://github.com/Kseniaveh/20-03-2018-Express/blob/master/server_app_f.jpg)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon"
+  },
+  "author": "Ksenia",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "fs": "0.0.1-security",
+    "moment": "^2.22.2",
+    "node-fetch-json": "0.0.3",
+    "pug": "^2.0.3"
+  }
+}
