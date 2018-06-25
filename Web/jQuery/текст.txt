@@ -1,0 +1,2 @@
+Таблица jQuery:
+	https://codepen.io/kseniaVeH/pen/yvBEOj
