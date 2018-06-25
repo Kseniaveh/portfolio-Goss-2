@@ -1,2 +1,3 @@
-������� Heroku:
+Ссылка на реализацию: 
+
 	https://pacific-plateau-25639.herokuapp.com/
