@@ -11,9 +11,9 @@ let items;
 
 const checkAuth = (r, res, next) => {//создаем функцию для проверки аутентификации в сессии
   if(r.session.auth === 'ok') {//проверерка сессии на аутентификацию
-    next();// если прошла проверка то продолжаем работу
+    next();// если прошла проверка, то продолжаем работу
   } else {
-    res.redirect('/login');// если не прошла провекра то перенаправляем на страницу ввода
+    res.redirect('/login');// если не прошла провекра, то перенаправляем на страницу ввода
   }
 };
 
@@ -44,8 +44,8 @@ app
       r.res.send('No such user!');// если пользователь не найден, пишем что пользователя нет
     }
   })  
-  .use(r => r.res.status(404).end('Still not here, sorry!'))
-  .use((e, r, res, n) => res.status(500).end(`Error: ${e}`))
+  .use(r => r.res.status(404).end('Still not here, sorry!'))//вывод результата для главной страницы и присваивание статуса 404
+  .use((e, r, res, n) => res.status(500).end(`Error: ${e}`))//вывод ошибки при отсутсвии маршрута и установка статуса 500
   .set('view engine', 'pug')
   .listen(process.env.PORT || PORT, async () => {
     console.log(process.pid);
