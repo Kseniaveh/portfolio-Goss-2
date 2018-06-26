@@ -1,1 +1,1 @@
-Ссылка на борд : https://kodaktor.ru/bind02032018_fa1a3
+Ссылка на борд : https://kodaktor.ru/bind02032018_f5885
